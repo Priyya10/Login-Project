@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .background-image {
+        background-image: url(https://lh4.googleusercontent.com/-vnusWehi9_8/VCqBDuTLrEI/AAAAAAAADQc/5Jr0TxXgC5w/long-road-sunset-wide.jpg?imgmax=0);
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+      }
+
+      .box {
+        width: 328px;
+        height: 434px;
+        background-color: #53221275;
+        margin-inline: 572px;
+        margin: 132px 550px;
+        border: 2px solid white;
+        border-radius: 42px;
+      }
+
+      h2 {
+        margin-top: -87px;
+        padding: 129px;
+      }
+
+      .name {
+        margin-top: -87px;
+        margin-inline: 15px;
+        font-size: 16px;
+        font-family: "Sassy Frass", cursive;
+      }
+
+      .name input {
+        width: 272px;
+        background-color: #ffffff40;
+      }
+
+      .pass {
+        margin-top: 31px;
+        margin-inline: 14px;
+        font-size: 16px;
+        font-family: "Sassy Frass", cursive;
+      }
+
+      .pass input {
+        width: 276px;
+        background-color: #ffffff40;
+      }
+
+      .checkbox {
+        width: 41%;
+        margin-inline: 15px;
+        margin-top: 26px;
+        display: inline-block;
+        font-size: 13px;
+        font-family: "Sassy Frass", cursive;
+      }
+
+      .checkbox input {
+        width: 12px;
+      }
+
+      .forgot {
+        font-size: 10px;
+        font-family: "Sassy Frass", cursive;
+        padding-inline: 136px;
+        margin-top: -21px;
+        margin-left: 99px;
+        padding: 5px 5px 10px 148px;
+        font-weight: bold;
+      }
+
+      .box1 {
+        background-color: #500b0b;
+        color: black;
+        width: 282px;
+        height: 39px;
+        margin-inline: 19px;
+        margin-top: 29px;
+        border-radius: 6px;
+      }
+
+      .box1 p a {
+        font-size: 14px;
+        color: white;
+        margin-inline: 119px;
+        margin-top: 5px;
+        padding: 9px;
+        padding-top: 3px;
+        padding-left: 9px;
+        font-family: "Courier New", Courier, monospace;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .msg {
+        font-size: 12px;
+        font-family: "Sassy Frass", cursive;
+        margin-inline: 86px;
+        padding-top: 12px;
+      }
+
+      .msg a {
+        color: rgb(14, 89, 138);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="background-image">
+      <div class="box">
+        <h2>Login</h2>
+        <p class="name">
+          Email <input type="text" placeholder="Enter your email" />
+        </p>
+
+        <p class="pass">
+          Password <input type="password" placeholder="Enter your password" />
+        </p>
+
+        <p class="checkbox">Remember me <input type="checkbox" /></p>
+        <p class="forgot">Forgot pass?</p>
+
+        <div class="box1">
+          <p><a href="Login">Login</a></p>
+        </div>
+
+        <p class="msg">Not a member<a href="Signup"> Signup</a></p>
+      </div>
+    </div>
+  </body>
+</html>
